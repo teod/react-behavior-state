@@ -1,5 +1,5 @@
 {
-  "name": "react-easy-state",
+  "name": "react-behavior-state",
   "version": "0.0.1",
   "description": "context-less state management for react",
   "main": "dist/index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/teod/react-easy-state.git"
+    "url": "git+https://github.com/teod/react-behavior-state.git"
   },
   "author": "Teodor Druta <teodruta@gmail.com.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/teod/react-easy-state/issues"
+    "url": "https://github.com/teod/react-behavior-state/issues"
   },
-  "homepage": "https://github.com/teod/react-easy-state#readme",
+  "homepage": "https://github.com/teod/react-behavior-state#readme",
   "dependencies": {
     "@types/jest": "24.0.15",
     "@types/node": "^13.9.8",
