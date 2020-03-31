@@ -5,7 +5,7 @@ A fully typed simple solution for global state in react without context using a 
 ## Installation
 
 ```bash
-yarn add react-easy-state
+yarn add react-behavior-state
 ```
 
 ## Usage
