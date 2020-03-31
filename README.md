@@ -1,11 +1,11 @@
-# React Easy State
+# React Behavior State
 
 A fully typed simple solution for global state in react without context using a BehaviourSubject observable pattern.
 
 ## Installation
 
 ```bash
-yarn add react-easy-state
+yarn add react-behavior-state
 ```
 
 ## Usage
