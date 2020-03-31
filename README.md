@@ -11,9 +11,9 @@ yarn add react-easy-state
 ## Usage
 
 Examples are written with typescript, but you can still use plain javascript if you prefer.
+You can find a complete example under the examples folder.
 
 ```typescript
-// nameStore.ts
 import { createStore, useSharedState } from 'react-easy-state'
 
 interface State {
@@ -26,14 +26,11 @@ const initialState = {
   lastName: '',
 }
 
-export const store = createStore<State>(initialState)
+const store = createStore<State>(initialState)
 
-export const useNameState = () => useSharedState(store)
+const useNameState = () => useSharedState(store)
 
-// Name.tsx
-import { useNameState } from '../stores/name'
-
-export default () => {
+const Name = () => {
   const [name, setName] = useNameState()
 
   return (
