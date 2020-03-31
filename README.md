@@ -12,7 +12,7 @@ yarn add react-easy-state
 
 Examples are written with typescript, but you can still use plain javascript if you prefer.
 
-```typescript-react
+```typescript
 // nameStore.ts
 import { createStore, useSharedState } from 'react-easy-state'
 
