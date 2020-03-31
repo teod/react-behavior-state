@@ -95,3 +95,12 @@ const Name = () => {
   )
 }
 ```
+
+### Run the example
+In order to run the example you need to clone the github repository:
+```bash
+cd examples/basic
+yarn
+yarn start
+```
+This will open a new webpack server on port 3000 by default.
