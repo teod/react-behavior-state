@@ -47,7 +47,7 @@ export default () => {
         name="lastName"
         onChange={({ target: { value } }) =>
           // update function also accepts a callback
-          setName(state => ({ ...state, firstName: value }))
+          setName(state => ({ ...state, lastName: value }))
         }
       />
     </div>

@@ -6317,7 +6317,7 @@ loader-utils@^1.1.0, loader-utils@^1.2.3, loader-utils@^1.4.0:
     emojis-list "^3.0.0"
     json5 "^1.0.1"
 
-"local-react-easy-state@file:../../src":
+"local-react-easy-state@file:../../dist":
   version "0.0.0"
 
 locate-path@^2.0.0:
