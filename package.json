@@ -1,0 +1,35 @@
+{
+  "name": "react-easy-state",
+  "version": "0.0.1",
+  "description": "context-less state management for react",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "rimraf dist/*; tsc",
+    "prepublish": "npm run compile",
+    "test": "react-scripts test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teod/react-easy-state.git"
+  },
+  "author": "Teodor Druta <teodruta@gmail.com.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teod/react-easy-state/issues"
+  },
+  "homepage": "https://github.com/teod/react-easy-state#readme",
+  "dependencies": {
+    "@types/jest": "24.0.15",
+    "@types/node": "^13.9.8",
+    "@types/react": "^16.9.29",
+    "react": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "eslint": "^6.8.0",
+    "rimraf": "^3.0.2"
+  }
+}
