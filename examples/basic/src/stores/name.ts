@@ -1,4 +1,4 @@
-import { createStore, useSharedState } from 'local-react-easy-state'
+import { createStore, useSharedState } from 'react-behavior-state'
 
 interface State {
   firstName: string
