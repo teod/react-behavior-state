@@ -1,12 +1,12 @@
 {
   "name": "react-behavior-state",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "context-less state management for react",
   "main": "dist/index.js",
   "scripts": {
     "compile": "rimraf dist/*; tsc",
     "prepublish": "npm run compile",
-    "test": "react-scripts test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,13 +23,19 @@
     "@types/node": "^13.9.8",
     "@types/react": "^16.9.29",
     "react": "^16.13.1",
-    "react-scripts": "^3.4.1",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@testing-library/react-hooks": "^3.2.1",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
+    "babel-jest": "^25.3.0",
     "eslint": "^6.8.0",
+    "jest": "^25.3.0",
+    "react-test-renderer": "^16.13.1",
     "rimraf": "^3.0.2"
   }
 }
