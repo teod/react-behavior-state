@@ -23,7 +23,7 @@ This library is extremely tiny when properly packed into your application's bund
 
 ## Usage
 ```typescript
-import { createStore, useSharedState } from 'react-easy-state'
+import { createStore, useSharedState } from 'react-behavior-state'
 
 const initialState = {
   firstName: '',
@@ -58,7 +58,7 @@ const Name = () => {
 
 #### With Typescript:
 ```typescript
-import { createStore, useSharedState } from 'react-easy-state'
+import { createStore, useSharedState } from 'react-behavior-state'
 
 interface State {
   firstName: string
