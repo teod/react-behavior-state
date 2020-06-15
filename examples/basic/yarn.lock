@@ -8457,16 +8457,15 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
-react-behavior-state@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/react-behavior-state/-/react-behavior-state-0.0.3.tgz#fd3f260b042b98d8779681ed1a0eff3a15b5cbf6"
-  integrity sha512-FPQDZfmD+2dMJq1g2agDIAAHXMlzuSlblWTEpM81X+t9bQh1wwBigAoTdrJVbUhvmODKRD7pjvo2czgxIjqlHQ==
+react-behavior-state@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-behavior-state/-/react-behavior-state-0.0.5.tgz#b48991bf591ec6967067cc50c226c72090ff0ef2"
+  integrity sha512-SFOrw/jygaV8pAYM9eyCEeNwEMudsUWocdxXu8ophbaF6RYI3om0geyyjXG6OSPeBVquen8p/Y3MjEaCvay8XA==
   dependencies:
     "@types/jest" "24.0.15"
     "@types/node" "^13.9.8"
     "@types/react" "^16.9.29"
     react "^16.13.1"
-    react-scripts "^3.4.1"
     typescript "^3.8.3"
 
 react-dev-utils@^10.2.1:
@@ -8519,7 +8518,7 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-scripts@3.4.1, react-scripts@^3.4.1:
+react-scripts@3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-3.4.1.tgz#f551298b5c71985cc491b9acf3c8e8c0ae3ada0a"
   integrity sha512-JpTdi/0Sfd31mZA6Ukx+lq5j1JoKItX7qqEK4OiACjVQletM1P38g49d9/D0yTxp9FrSF+xpJFStkGgKEIRjlQ==

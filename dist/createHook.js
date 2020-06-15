@@ -17,7 +17,7 @@ var __read = (this && this.__read) || function (o, n) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = require("react");
-var useSharedState = function (store) {
+var createHook = function (store) {
     var _a = __read(react_1.useState(store.subject.getValue()), 2), state = _a[0], setState = _a[1];
     react_1.useEffect(function () {
         var unsubscribe = store.subject.subscribe(function (s) { return setState(s); });
@@ -27,5 +27,5 @@ var useSharedState = function (store) {
     }, []);
     return [state, store.update];
 };
-exports.default = useSharedState;
-//# sourceMappingURL=useSharedState.js.map
+exports.default = createHook;
+//# sourceMappingURL=createHook.js.map

@@ -1,6 +1,6 @@
 import createStore from './createStore'
-import useSharedState from './useSharedState'
+import createHook from './createHook'
 
-export { createStore, useSharedState }
+export { createStore, createHook }
 
 export * from './types'

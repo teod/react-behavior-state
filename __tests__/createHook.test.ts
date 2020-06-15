@@ -1,7 +1,7 @@
 import { renderHook, act } from '@testing-library/react-hooks'
 
 import createStore from './../src/createStore'
-import useSharedState from './../src/useSharedState'
+import createHook from './../src/createHook'
 
 const initialState = {
   a: 1,
@@ -14,11 +14,11 @@ const updateState = {
   c: 5,
 }
 
-describe('useSharedState', () => {
+describe('createHook', () => {
   test('initial value', () => {
     const store = createStore(initialState)
 
-    const { result } = renderHook(() => useSharedState(store))
+    const { result } = renderHook(() => createHook(store))
 
     const [state] = result.current
     expect(state).toEqual(initialState)
@@ -27,7 +27,7 @@ describe('useSharedState', () => {
   test('state update', () => {
     const store = createStore(initialState)
 
-    const { result } = renderHook(() => useSharedState(store))
+    const { result } = renderHook(() => createHook(store))
 
     act(() => {
       result.current[1](updateState)

@@ -1,4 +1,4 @@
 import createStore from './createStore';
-import useSharedState from './useSharedState';
-export { createStore, useSharedState };
+import createHook from './createHook';
+export { createStore, createHook };
 export * from './types';

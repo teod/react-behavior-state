@@ -1,4 +1,4 @@
-import { createStore, useSharedState } from 'react-behavior-state'
+import { createStore, createHook } from 'react-behavior-state'
 
 interface State {
   firstName: string
@@ -12,4 +12,4 @@ const initialState = {
 
 export const store = createStore<State>(initialState)
 
-export const useNameState = () => useSharedState(store)
+export const useNameState = () => createHook(store)

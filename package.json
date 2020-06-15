@@ -1,11 +1,11 @@
 {
   "name": "react-behavior-state",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "context-less state management for react",
   "main": "dist/index.js",
   "scripts": {
-    "compile": "rimraf dist/*; tsc",
-    "prepublish": "npm run compile",
+    "build": "rimraf dist/*; tsc",
+    "prepublishOnly": "yarn build",
     "test": "jest"
   },
   "repository": {
