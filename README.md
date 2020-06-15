@@ -5,7 +5,7 @@
 [Install](#install) | [Why ?](#why) | [Usage](#usage) | [Typescript](#typescript) | [API](#api) | [Examples](#run-the-example)
 
 A simple solution for global state in a React application without using [context](https://reactjs.org/docs/context.html).
-Under the hood it uses a custom <b>Behavior Subject</b> pattern inspired from [rxjx](https://www.learnrxjs.io/learn-rxjs/subjects/behaviorsubject).
+Under the hood it uses a custom <b>BehaviorSubject</b> pattern inspired from [rxjs](https://www.learnrxjs.io/learn-rxjs/subjects/behaviorsubject).
 
 ## Install
 
@@ -16,7 +16,7 @@ npm install --save react-behavior-state
 
 <i>yarn:</i>
 ```sh
-yarn add eact-behavior-state
+yarn add react-behavior-state
 ```
 
 ## Why ?

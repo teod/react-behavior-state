@@ -1,6 +1,6 @@
 {
   "name": "react-behavior-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "context-less state management for react",
   "main": "dist/index.js",
   "scripts": {

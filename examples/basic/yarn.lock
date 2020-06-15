@@ -8457,10 +8457,10 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
-react-behavior-state@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/react-behavior-state/-/react-behavior-state-0.0.5.tgz#b48991bf591ec6967067cc50c226c72090ff0ef2"
-  integrity sha512-SFOrw/jygaV8pAYM9eyCEeNwEMudsUWocdxXu8ophbaF6RYI3om0geyyjXG6OSPeBVquen8p/Y3MjEaCvay8XA==
+react-behavior-state@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-behavior-state/-/react-behavior-state-1.0.0.tgz#7d14a2deb7ec0245f9e9cbec12c107db453fe023"
+  integrity sha512-zvrdPFgPh5ts+XSb35jd8Y5rd37bgCeyFs/HzKVMSrw88p54Fh+BALWT2iCe/JYgufa6R3UX+FoPzhbLI4g4Vw==
   dependencies:
     "@types/jest" "24.0.15"
     "@types/node" "^13.9.8"
