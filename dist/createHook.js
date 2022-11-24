@@ -20,7 +20,7 @@ var react_1 = require("react");
 var createHook = function (store) {
     var _a = __read(react_1.useState(store.subject.getValue()), 2), state = _a[0], setState = _a[1];
     react_1.useEffect(function () {
-        var unsubscribe = store.subject.subscribe(function (s) { return setState(s); });
+        var unsubscribe = store.subject.subscribe(setState);
         return function () {
             unsubscribe();
         };

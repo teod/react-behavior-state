@@ -7,7 +7,7 @@ const createHook = <T = any>(
   const [state, setState] = useState(store.subject.getValue())
 
   useEffect(() => {
-    const unsubscribe = store.subject.subscribe(s => setState(s))
+    const unsubscribe = store.subject.subscribe(setState)
 
     return () => {
       unsubscribe()
